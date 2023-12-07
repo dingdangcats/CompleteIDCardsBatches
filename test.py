@@ -7,7 +7,7 @@ import json
 def process_data():
     auth_secret = entry_auth_secret.get()
     if not auth_secret:
-        messagebox.showerror("错误", "请输入安全密钥")
+        messagebox.showerror("错误", "请输入您的安全密钥")
         return
 
     file_path = filedialog.askopenfilename(title="选择输入文件", filetypes=[("Text files", "*.txt")])
