@@ -18,7 +18,7 @@ print(Fore.CYAN + Style.BRIGHT + r'''
 ''' + Fore.RESET + r'''Welcome to 叮当猫智能身份证补全!''')
 print() 
 
-# 获取用户输入的auth_secret
+# 获取用户的auth_secret
 auth_secret = input("\n请输入您的安全密钥 (auth_secret):" + f"{Fore.GREEN}")
 
 with open('input.txt', 'r', encoding='UTF-8') as file:
