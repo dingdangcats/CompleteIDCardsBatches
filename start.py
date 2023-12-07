@@ -26,7 +26,7 @@ with open('input.txt', 'r', encoding='UTF-8') as file:
 
 output_lines = []
 
-# 遍历文件中的每一行
+# 遍历文件
 for line in lines:
     # ...（之前的格式检查代码）
 
