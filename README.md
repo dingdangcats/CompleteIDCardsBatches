@@ -12,7 +12,7 @@
 ## 安装
 1. 克隆仓库到本地
 ```
-git clone https://github.com/your-username/your-repository.git
+git clone https://github.com/dingdangcats/CompleteIDCardsBatches.git
 ```
 2. 安装所需依赖
 ```
