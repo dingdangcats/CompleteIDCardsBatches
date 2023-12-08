@@ -31,7 +31,7 @@ try:
     with open('input.txt', 'r', encoding='UTF-8') as file:
         lines = file.readlines()
 
-    # 遍历文件中的每一行
+    # 遍历文件每一行
     for line in lines:
         # 去除空白字符并判断是否为空行
         line = line.strip()
