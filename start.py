@@ -18,6 +18,8 @@ print(Fore.CYAN + Style.BRIGHT + r'''
 ''' + Fore.RESET + r'''Welcome to 叮当猫智能身份证补全!''')
 print() 
 
+api_key_valid = True
+
 # 获取用户的auth_secret
 auth_secret = input("\n请输入您的安全密钥 (auth_secret):" + f"{Fore.GREEN}")
 
@@ -28,7 +30,6 @@ output_lines = []
 
 # 遍历文件
 for line in lines:
-    # ...（之前的格式检查代码）
 
     # 尝试分割字符串并定义 data 变量
     try:
