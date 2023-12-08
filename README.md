@@ -26,7 +26,7 @@ pip install colorama
 1. 将需要处理的数据以文本形式放入`input.txt`文件中，格式为`姓名, 身份证号码`。
 2. 运行脚本:
 ```
-python ddm_identity_completion.py
+python start.py
 ```
 3. 根据提示输入您的`auth_secret`（API密钥）。
 4. 查看输出文件中的结果。
