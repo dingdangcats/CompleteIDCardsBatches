@@ -1,5 +1,7 @@
 # 叮当猫智能身份证补全工具
 
+![](https://img.shields.io/github/stars/pandao/editor.md.svg) ![](https://img.shields.io/github/forks/pandao/editor.md.svg) ![](https://img.shields.io/github/tag/pandao/editor.md.svg) ![](https://img.shields.io/github/release/pandao/editor.md.svg) ![](https://img.shields.io/github/issues/pandao/editor.md.svg) ![](https://img.shields.io/bower/v/editor.md.svg)
+
 ## 简介
 叮当猫智能身份证补全工具是一个基于Python的脚本，用于自动补全部分身份证信息。它使用特定的API来处理输入数据，并返回补全的身份证信息。该工具旨在帮助需要大量身份证信息处理的用户快速、高效地完成任务。
 
