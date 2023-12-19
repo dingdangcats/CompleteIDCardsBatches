@@ -5,6 +5,8 @@
 ## 简介
 叮当猫智能身份证补全工具是一个基于Python的脚本，用于自动补全部分身份证信息。它使用特定的API来处理输入数据，并返回补全的身份证信息。该工具旨在帮助需要大量身份证信息处理的用户快速、高效地完成任务。
 
+![运行截图](https://raw.githubusercontent.com/dingdangcats/CompleteIDCardsBatches/main/2023-12-20_01-37-49.png)
+
 ## 功能
 - 从文本文件读取身份证信息
 - 使用API自动补全信息
