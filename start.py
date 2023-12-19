@@ -2,6 +2,7 @@ import requests
 import datetime
 import json
 from colorama import init, Fore, Style
+import pandas as pd
 
 # 初始化Colorama
 init(autoreset=True)
