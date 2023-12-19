@@ -18,10 +18,7 @@ git clone https://github.com/dingdangcats/CompleteIDCardsBatches.git
 ```
 2. 安装所需依赖
 ```
-pip install requests
-```
-```
-pip install colorama
+pip install -r requirements.txt
 ```
 
 ## 使用方法
@@ -34,6 +31,15 @@ python start.py
 4. 查看输出文件中的结果。
 
 ## 注意事项
+- 请确保input.txt格式正确
+```
+姓名, 模糊身份证
+```
+- 正常情况下，程序会生成三个文件
+`1）去重版补齐(txt)`
+`2）未去重版补齐(txt)`
+`2）去重版excel表格(xlsx)`
+
 - 确保您的API密钥有效且未过期。
 - 确保您的ip在系统白名单内。
 - 本工具仅用于学习和研究目的，不应用于非法活动。
